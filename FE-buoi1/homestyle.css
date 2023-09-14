@@ -1,0 +1,102 @@
+﻿body {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(245,245,247);
+    overflow-x:hidden;
+}
+.article_img{
+    margin: 20px 5%;
+    display:flex;
+}
+.article_img img{
+    padding:0 20px;
+    width:350px;
+    height:200px;
+}
+#Equipment {
+    text-align: center;
+    font-size: 30px;
+}
+.classify_equipment {
+    display: flex;
+    margin: 20px 78px;
+}
+.equipment {
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 286px;
+    height:435px;
+    padding: 10px;
+    background-color: white;
+    display: block;
+}
+.equipment p{
+    padding-top:20px;
+}
+.equipment:hover{
+    filter:brightness(105%)
+}
+.coin_of_equipment {
+    position: absolute;
+    margin: 100px 0px;
+}
+.name_equipment{
+    margin: 40px 0;
+    position: relative;
+}
+.equipment2 {
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 286px;
+    height: 435px;
+    padding: 10px;
+    background-color: white;
+    display: block;
+}
+.equipment2 p{
+    padding-top:40px;
+}
+.equipment-boss > p {
+    margin: 10px 42%;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid rgb(0,101,204);
+    padding: 10px;
+    color: rgb(0,101,204);
+}
+.equipment-boss > p:hover {
+    color: white;
+    background-color: rgb(0,101,204);
+}
+.classify_news{
+    margin:0 6%;
+    display:flex;
+}
+#News{
+    text-align:center;
+}
+.news{
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: white;
+    width: 70%;
+    height: 340px;
+}
+.News-boss > p {
+    margin: 10px 42%;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid rgb(0,101,204);
+    padding: 10px;
+    color: rgb(0,101,204);
+}
+
+.News-boss > p:hover {
+    color: white;
+    background-color: rgb(0,101,204);
+}
+.news img{
+    width:100%;
+}
