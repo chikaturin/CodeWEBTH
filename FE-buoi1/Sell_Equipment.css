@@ -30,6 +30,7 @@
     border: 2px solid rgb(222,217,217);
 }
 .infor-equipment{
+    float:right;
     flex:1;
     width:50%;
 }
