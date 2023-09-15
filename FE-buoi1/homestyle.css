@@ -2,18 +2,20 @@
     margin: 0;
     width: 100%;
     background-color: rgb(245,245,247);
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 .article_img{
+
     margin: 20px 5%;
     display:flex;
 }
 .article_img img{
     padding:0 20px;
-    width:350px;
+    width:30%;
     height:200px;
 }
 #Equipment {
+    width:100%;
     text-align: center;
     font-size: 30px;
 }
@@ -24,7 +26,7 @@
 .equipment {
     border-radius: 10px;
     margin: 0 10px;
-    width: 286px;
+    width: 23%;
     height:435px;
     padding: 10px;
     background-color: white;
@@ -33,25 +35,36 @@
 .equipment p{
     padding-top:20px;
 }
-.equipment:hover{
+.equipment> img
+{
+    width:100%;
+    height:auto;
+}
+.equipment img:hover{
     filter:brightness(105%)
 }
 .coin_of_equipment {
+    width:20%;
     position: absolute;
-    margin: 100px 0px;
+    margin:100px 0;
 }
 .name_equipment{
+    width:100%;
     margin: 40px 0;
     position: relative;
 }
 .equipment2 {
     border-radius: 10px;
     margin: 0 10px;
-    width: 286px;
+    width: 23%;
     height: 435px;
     padding: 10px;
     background-color: white;
     display: block;
+}
+.equipment2 > img {
+    width: 100%;
+    height: auto;
 }
 .equipment2 p{
     padding-top:40px;
