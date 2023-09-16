@@ -26,8 +26,8 @@
 .equipment {
     border-radius: 10px;
     margin: 0 10px;
-    width: 23%;
-    height:435px;
+    width: 260px;
+    height:445px;
     padding: 10px;
     background-color: white;
     display: block;
@@ -56,8 +56,8 @@
 .equipment2 {
     border-radius: 10px;
     margin: 0 10px;
-    width: 23%;
-    height: 435px;
+    width: 260px;
+    height: 460px;
     padding: 10px;
     background-color: white;
     display: block;
