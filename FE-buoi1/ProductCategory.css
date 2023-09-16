@@ -40,8 +40,8 @@ margin: 20px 78px;
 .equipment {
 border-radius: 10px;
 margin: 0 10px;
-width: 260px;
-height: 460px;
+width: 26%;
+height:auto;
 padding: 10px;
 background-color: white;
 display: block;
@@ -63,7 +63,7 @@ display: block;
 .coin_of_equipment {
 width: 20%;
 position: absolute;
-margin: 100px 0;
+margin: 6% 0;
 }
 
 .name_equipment {

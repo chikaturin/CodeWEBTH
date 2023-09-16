@@ -46,7 +46,7 @@
 .coin_of_equipment {
     width:20%;
     position: absolute;
-    margin:100px 0;
+    margin:7% 0;
 }
 .name_equipment{
     width:100%;
@@ -57,7 +57,7 @@
     border-radius: 10px;
     margin: 0 10px;
     width: 260px;
-    height: 460px;
+    height: auto;
     padding: 10px;
     background-color: white;
     display: block;
