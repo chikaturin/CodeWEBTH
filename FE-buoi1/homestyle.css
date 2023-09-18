@@ -24,6 +24,7 @@
     margin: 20px 78px;
 }
 .equipment {
+    position:relative;
     border-radius: 10px;
     margin: 0 10px;
     width: 26%;
@@ -33,43 +34,71 @@
     display: block;
 }
 .equipment p{
+    width:100%;
     padding-top:20px;
 }
 .equipment> img
 {
-    width:100%;
+    margin:30px 0;
+    position: absolute;
+    width:90%;
     height:auto;
 }
-.equipment img:hover{
+.equipment:hover{
     filter:brightness(105%)
 }
-.coin_of_equipment {
-    width:20%;
-    position: absolute;
-    margin:7% 0;
-}
-.name_equipment{
+.coin{
     width:100%;
-    margin: 40px 0;
+    padding:30px 0;
+}
+.coin_of_equipment {
+    bottom:0;
+    margin:0;
+    padding:10px 0;
+    position:absolute;
+}
+.name_equipment {
+    margin:120% 0 0 0;
     position: relative;
+    width: 100%;
 }
 .equipment2 {
+    position:relative;
     border-radius: 10px;
     margin: 0 10px;
     width: 26%;
-    height: auto;
+    height:445px;
     padding: 10px;
     background-color: white;
     display: block;
 }
-.equipment2 > img {
-    width: 100%;
-    height: auto;
-}
 .equipment2 p{
-    padding-top:40px;
+    width:100%;
+    padding-top:20px;
 }
-.equipment-boss > p {
+.equipment2> img
+{
+    margin:30px 0;
+    position: absolute;
+    width:90%;
+    height:auto;
+}
+.equipment2:hover{
+    filter:brightness(105%)
+}
+.equipment-boss a {
+    text-decoration: none;
+}
+.equipment-boss a > p {
+    margin: 10px 42%;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid rgb(0,101,204);
+    padding: 10px;
+    color: rgb(0,101,204);
+}
+.equipment-boss  > p {
     margin: 10px 42%;
     border-radius: 5px;
     text-align: center;
