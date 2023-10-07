@@ -1,8 +1,8 @@
-﻿body {
-    margin: 0;
+body {
+    margin:0;
     width: 100%;
     background-color: rgb(245,245,247);
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 .article_img{
 
@@ -20,77 +20,71 @@
     font-size: 30px;
 }
 .classify_equipment {
+    width:87%;
     display: flex;
-    margin: 20px 78px;
+    margin: 20px 0 0 6%;
+}
+.classify_equipment a{
+    width: 87%;
+    display: flex;
+    margin: 20px 0 0 6%;
 }
 .equipment {
-    position:relative;
+    width:25%;
     border-radius: 10px;
     margin: 0 10px;
-    width: 26%;
-    height:445px;
     padding: 10px;
     background-color: white;
     display: block;
 }
-.equipment p{
+.equipment > p{
     width:100%;
     padding-top:20px;
 }
 .equipment> img
 {
-    margin:30px 0;
-    position: absolute;
-    width:90%;
-    height:auto;
+    display: flex;
+    justify-content: center;
+    width:256px;
+    height:max-content;
 }
-.equipment:hover{
-    filter:brightness(105%)
+.equipment :hover{
+    filter:brightness(105%);
 }
 .coin{
     width:100%;
     padding:30px 0;
 }
-.coin_of_equipment {
-    bottom:0;
-    margin:0;
-    padding:10px 0;
-    position:absolute;
-}
 .name_equipment {
-    margin:120% 0 0 0;
-    position: relative;
     width: 100%;
+    min-height: 40px;
 }
 .equipment2 {
-    position:relative;
     border-radius: 10px;
     margin: 0 10px;
-    width: 26%;
-    height:445px;
+    width: 21%;
     padding: 10px;
     background-color: white;
     display: block;
 }
-.equipment2 p{
-    width:100%;
-    padding-top:20px;
+.equipment2 p {
+    width: 100%;
+    padding-top: 20px;
 }
-.equipment2> img
-{
-    margin:30px 0;
-    position: absolute;
-    width:90%;
-    height:auto;
-}
-.equipment2:hover{
-    filter:brightness(105%)
+
+.equipment2 > img {
+
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+    height: auto;
 }
 .equipment-boss a {
     text-decoration: none;
 }
-.equipment-boss a > p {
-    margin: 10px 42%;
+.equipment-boss > a > p {
+    margin: 30px auto;
     border-radius: 5px;
     text-align: center;
     width: 200px;
@@ -99,7 +93,7 @@
     color: rgb(0,101,204);
 }
 .equipment-boss  > p {
-    margin: 10px 42%;
+    margin: 30px auto;
     border-radius: 5px;
     text-align: center;
     width: 200px;
@@ -111,11 +105,12 @@
     color: white;
     background-color: rgb(0,101,204);
 }
-.equipment-boss > a p:hover {
+.equipment-boss > a > p:hover {
     color: white;
     background-color: rgb(0,101,204);
 }
 .slider {
+    width:100%;
     position: relative;
     display: flex;
     background: #A0A0A0;
@@ -199,3 +194,4 @@
 .news img{
     width:100%;
 }
+
